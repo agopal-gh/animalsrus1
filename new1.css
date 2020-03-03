@@ -1,0 +1,112 @@
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('http://t2.gstatic.com/images?q=tbn:ANd9GcQTm2rXyR6vEIsZ17hhKJHxfH4c-pc_GhFjJFK9GNvglIgamI4WKJkyxF8');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+a:hover{
+    background-color:blue;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+  border: 5px solid #FFF;
+}
+
+.gallery-item .thumbnail {
+
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+
+}
+
+.contact-btn a {
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+ /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #0c73c7;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+} 

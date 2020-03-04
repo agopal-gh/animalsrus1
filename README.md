@@ -1,2 +1,0 @@
-# animalsrus1
-AnimalsRUs
